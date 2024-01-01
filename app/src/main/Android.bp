@@ -27,6 +27,9 @@ android_app {
         "gson",
         "hilt_android",
     ],
+    libs: [
+        "framework-lmodroid",
+    ],
     kotlincflags: [
         "-opt-in=kotlin.Experimental",
         "-opt-in=kotlin.ExperimentalStdlibApi",
